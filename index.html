@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Document</title>
+</head>
+<body>
+    <form id="myform" action="/" method="POST">
+        <div>
+            <label for="ID">User ID</label>
+            <input type="text" name="ID" id="ID">
+        </div>
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" name="First_name" id="First_name">
+            <label for="Surname">Surname</label>
+            <input type="text" name="Surname" id="Surname">
+        </div>
+        <div>
+            <label for="Balance">Balance</label>
+            <input type="number" name="Balance" id="Balance" step="0.1">
+        </div>
+        
+        <div>
+            <label for="Pin_enabled">Enable pin</label>
+            <input type="checkbox" name="Pin_enabled" id="Pin_enabled">
+
+            <label for="PIN">PIN</label>
+            <input type="number" id="PIN" name="PIN">
+        </div>      
+        
+        <div><button type="submit">Submit</button></div>
+        
+        
+    </form>
+   
+</body>
+<script src="process_form.js"></script>
+
+</html>
